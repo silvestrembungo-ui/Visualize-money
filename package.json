@@ -1,0 +1,20 @@
+{
+  "name": "visualize-money",
+  "version": "0.1.0",
+  "description": "Plataforma de vídeos remunerados - protótipo",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "sequelize": "^6.32.1",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.0"
+  }
+}
